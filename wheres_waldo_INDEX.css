@@ -9,16 +9,20 @@ body {
 }
 
 #hoved-logo {
+	display: flex;
+	justify-content: center;
+}
+#logo {
 	position: relative;
-	left: 40%;
-	width: 400px;
+
 }
 
 #info-tegn {
 	position: relative;
-	left: 520px;
-	top: -5px;
-	height: 80px;
+	height: 70px;
+	left: -46px;
+	top: 70px;
+	
 }
 
 @keyframes slideInYoDms {
