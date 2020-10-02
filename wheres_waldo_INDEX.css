@@ -1,0 +1,51 @@
+body {
+	background-image: url(images/frontpage/background_wheres_waldo_main.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 800px;
+	width: 100%;
+	position: fixed;
+	margin: 0px;
+}
+
+#hoved-logo {
+	position: relative;
+	left: 40%;
+	width: 400px;
+}
+
+#info-tegn {
+	position: relative;
+	left: 520px;
+	top: -5px;
+	height: 80px;
+}
+
+@keyframes slideInYoDms {
+	0% {
+		left: -400px;
+	}
+	100% {
+		left: 0px;
+	}
+}
+
+#vinker {
+	position: relative, fixed;
+	height: 300px;
+	justify-content: flex-start;
+	animation-name: slideInYoDms;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	
+	
+}
+.vinke-tekst {
+	position: relative;
+	background-color: white;
+	width: 200px;
+	font-family: fantasy;
+	left: 20px;
+	top: -380px;
+}
+
