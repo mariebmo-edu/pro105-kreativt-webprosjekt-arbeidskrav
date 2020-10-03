@@ -54,22 +54,33 @@ body {
 }
 .vinke-tekst {
 	position: absolute;
-    font-size: 30px;
-	width: 275px;
+    font-size: 25px;
     height: 150px;
-    padding: 40px;
+    padding: 30px;
 	font-family: arial;
     font-weight: bold;
 	left: 250px;
 	background-image: url(images/white_texbox.png);
     background-repeat: no-repeat;
-    background-size: contain;
-}
-
-gråttbilde som hovrer:hover {
-	position: absolute;
+	background-size: contain;
 	
 }
+
+#waldo-found {
+	position: absolute;
+	height: 8.5%;
+	left: 51.3%;
+	top: 62.35%;
+	width: 3.6%;
+}
+
+#waldo-found:hover {
+	background-image: url(images/frontpage/waldo-b&w-forside.jpg);
+	background-position: absolute;
+	background-size: cover;
+}
+	
+
 
 
 /*WHERES WALDO WAVE*/
