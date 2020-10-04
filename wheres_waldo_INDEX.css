@@ -1,12 +1,20 @@
-body {
-	background-image: url(images/frontpage/background_wheres_waldo_main.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 800px;
-	width: 100%;
-	position: fixed;
-	margin: 0px;
+
+.background img{
+   position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
+
+.background #forbakgrunn{
+    opacity: 0%;
+}
+
+.background:hover #forbakgrunn{
+    opacity: 100%;
+}
+
 
 #hoved-logo {
 	position: relative;
@@ -19,6 +27,7 @@ body {
     width: 500px;
     padding: 30px;
 }
+
 #logo {
 	position: relative;
 
