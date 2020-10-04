@@ -1,12 +1,18 @@
 body, html{
-    width: 100%;
-    height: 100%;
+    width: 99%;
+    height: 99%;
 }
 
 
-#hoved-logo {
-	position: relative;
-    left: 70%;
+#body-content{
+    width: 100%
+}
+
+#main-logo {
+
+	position:sticky;
+    transform-origin: right;
+    left: 120%;
     background-color: azure;
     border-radius: 50px;
     border-color: skyblue;
@@ -14,6 +20,7 @@ body, html{
     border-style: inset;
     width: 500px;
     padding: 30px;
+    
 }
 
 #logo {
@@ -21,35 +28,22 @@ body, html{
 
 }
 
-#info-tegn {
+#question-mark-character {
 	position: relative;
     height: 90px;
     right: 60px;
     top: 10px;
+    
 	
 }
 
-@keyframes slideInYoDms {
-	0% {
-		left: -400px;
-	}
-	100% {
-		left: 0px;
-	}
+#question-mark-character:hover{
+    animation: vibrate 1s infinite linear;
 }
 
-#vinker {
-	position: relative, fixed;
-	height: 300px;
-	justify-content: flex-start;
-	animation-name: slideInYoDms;
-	animation-duration: 3s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in-out;
-	
-	
-}
-.vinke-tekst {
+
+
+.can-you-find-me {
 	position: absolute;
     font-size: 25px;
     height: 150px;
@@ -160,3 +154,29 @@ body, html{
 }
 
 /*---------------------*/
+
+
+/* ANIMATION ON HOVER */
+
+@keyframes vibrate{
+    
+    0%{
+        transform: rotate(0deg);
+    }
+    
+    25%{
+        transform: rotate(-15deg);
+    }
+    
+    50%{
+        transform: rotate(0deg);
+    }
+    
+    75%{
+        transform: rotate(15deg);
+    }
+    
+    100%{
+        transform: rotate(0deg);
+    }
+}
