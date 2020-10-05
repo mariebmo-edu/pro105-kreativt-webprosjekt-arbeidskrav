@@ -1,0 +1,44 @@
+#hoved-logo {
+	position: relative;
+    left: 70%;
+    background-color: azure;
+    border-radius: 50px;
+    border-color: skyblue;
+    border-width: 20px;
+    border-style: inset;
+    width: 500px;
+    padding: 30px;
+}
+
+#info-tegn {
+    position: relative;
+    height: 90px;
+    right: 60px;
+    top: 10px;
+}
+#info-tegn:hover {
+    animation: wiggle 0.5s infinite ease-out;
+}
+
+
+@keyframes wiggle{
+    0%{transform: rotate(0deg)}
+    25%{transform: rotate(20deg)}
+    50%{transform: rotate(-20deg)}
+    75%{transform: rotate(20deg)}
+    100%{transform: rotate(0deg)}
+}
+
+.infoflex {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid yellow;
+    margin-top: 15px;
+}
+
+.flex-child:first-child {
+    margin-right: 10px;
+}
