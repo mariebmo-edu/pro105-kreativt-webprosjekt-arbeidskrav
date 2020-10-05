@@ -1,3 +1,10 @@
+body {
+  background-image: url("images/background_wheres_waldo_index.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
 #hoved-logo {
 	position: relative;
     left: 70%;
@@ -35,10 +42,74 @@
 
 .flex-child {
     flex: 1;
-    border: 2px solid yellow;
     margin-top: 15px;
 }
 
 .flex-child:first-child {
     margin-right: 10px;
+    top: -100px;
+    
 }
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+.image {
+    width: 150px;
+    height: 200px;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+.image:hover {
+    width: 300px;
+    height: 400px;
+}
+
+#infodiv{
+    border: 20px inset skyblue;
+    border-radius: 15px;
+    position: relative;
+    top: 5px;
+    left: 55%;
+    max-width: 1000px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.booksdiv {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+}
+
+.grid-items {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 15px inset skyblue;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+div.scrollmenu {
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow: auto;
+    white-space: nowrap;
+    position: absolute;
+
+}
+
+
+
+
+
+
+
+
+
