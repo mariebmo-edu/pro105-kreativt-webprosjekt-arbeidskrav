@@ -1,0 +1,50 @@
+body, html{
+    background-color: black;
+}
+.question-mark{
+    opacity: 100%;
+}
+
+#question{
+    opacity: 100%;
+}
+
+
+#question:hover{
+    animation: vibrate 1s infinite linear;
+    opacity: 100%;
+}
+
+#question:hover + #pop-up{
+    opacity: 100%;
+}
+
+#pop-up{
+    background-color: white;
+    opacity: 0%;
+    height: 400%;
+    width: 20%;
+}
+
+@keyframes vibrate{
+    
+    0%{
+        transform: rotate(0deg);
+    }
+    
+    25%{
+        transform: rotate(-15deg);
+    }
+    
+    50%{
+        transform: rotate(0deg);
+    }
+    
+    75%{
+        transform: rotate(15deg);
+    }
+    
+    100%{
+        transform: rotate(0deg);
+    }
+}
