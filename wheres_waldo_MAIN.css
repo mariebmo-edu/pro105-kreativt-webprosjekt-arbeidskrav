@@ -52,13 +52,14 @@ body {
 
 .flex-child {
     flex: 1;
-    border: 2px solid yellow;
+    border: 2px solid skyblue;
     margin-top: 20px;
-    height: 50px;
+    max-height: 200px;
     width: 100px auto;
     background-color: white;
     opacity: 70%;
     padding: 100px;
+    
 }
 
 .flex-child:first-child {
