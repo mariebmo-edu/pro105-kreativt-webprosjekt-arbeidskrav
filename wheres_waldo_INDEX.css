@@ -1,6 +1,5 @@
 body, html{
-    width: 99%;
-    height: 99%;
+    font-family: sans-serif;
 }
 
 
@@ -10,19 +9,17 @@ body, html{
 
 /*LOGO AREA*/
 #main-logo {
-
-	position:sticky;
-    transform-origin: right;
-    left: 120%;
-    background-color: azure;
-    border-radius: 50px;
-    border-color: skyblue;
-    border-width: 20px;
-    border-style: inset;
-    width: 500px;
-    padding: 30px;
-    
-}
+        position: relative;
+        left: 65%;
+        background-color: azure;
+        border-radius: 30px;
+        border-color: skyblue;
+        border-width: 10px;
+        border-style: inset;
+        width: 500px;
+        padding: 20px;
+        margin: 0 25px;
+    }
 
 #logo {
 	position: relative;
@@ -70,8 +67,8 @@ body, html{
     height: 5%;
     left: 50%;
     top: 45%;
-    border: 20px inset red;
-    border-radius: 30px;
+    border: 10px inset red;
+    border-radius: 20px;
     
 }
 
@@ -89,6 +86,7 @@ body, html{
 	position: absolute;
     font-size: 25px;
     height: 150px;
+    width: 150px;
     padding: 30px;
 	font-family: arial;
     font-weight: bold;
