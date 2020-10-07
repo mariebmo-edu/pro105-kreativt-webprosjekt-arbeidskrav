@@ -1,132 +1,130 @@
 body {
-  font-family: sans-serif;
-  background-image: url("images/background_wheres_waldo_index.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;  
+	font-family: sans-serif;
+	background-image: url("images/background_wheres_waldo_index.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;  
 }
 
 #hoved-logo {
-    position: relative;
-    left: 65%;
-    background-color: azure;
-    border-radius: 30px;
-    border-color: skyblue;
-    border-width: 10px;
-    border-style: inset;
-    width: 500px;
-    padding: 20px;
-    margin: 0 25px;
+	position: relative;
+	left: 65%;
+	background-color: azure;
+	border-radius: 30px;
+	border-color: skyblue;
+	border-width: 10px;
+	border-style: inset;
+	width: 500px;
+	padding: 20px;
+	margin: 0 25px;
 }
-
-
-
 
 #info-tegn {
-    position: relative;
-    height: 90px;
-    right: 60px;
-    top: 10px;
+	position: relative;
+	height: 90px;
+	right: 60px;
+	top: 10px;
 }
 #info-tegn:hover {
-    animation: wiggle 0.5s infinite ease-out;
+	animation: wiggle 0.5s infinite ease-out;
 }
 
-
 @keyframes wiggle{
-    0%{transform: rotate(0deg)}
-    25%{transform: rotate(20deg)}
-    50%{transform: rotate(-20deg)}
-    75%{transform: rotate(20deg)}
-    100%{transform: rotate(0deg)}
+	0%{transform: rotate(0deg)}
+	25%{transform: rotate(20deg)}
+	50%{transform: rotate(-20deg)}
+	75%{transform: rotate(20deg)}
+	100%{transform: rotate(0deg)}
 }
 
 .infoflex {
-    display: flex;
-    width: 80%;
-    height: 70vh;
-    position: relative;
-    margin: 20px auto;
-    padding: 10px;
+	display: flex;
+	width: 80%;
+	height: 70vh;
+	position: relative;
+	margin: 20px auto;
+	padding: 10px;
 }
 
 .flex-child {
-    flex: 1;
-    border: 2px solid skyblue;
-    margin-top: 20px;
-    max-height: 200px;
-    width: 100px auto;
-    background-color: white;
-    opacity: 70%;
-    padding: 100px;
-    
+	flex: 1;
+	border: 2px solid skyblue;
+	margin-top: 20px;
+	max-height: 200px;
+	width: 100px auto;
+	background-color: white;
+	opacity: 70%;
+	padding: 100px;
 }
 
 .flex-child:first-child {
-    margin-right: 10px;
-    top: -100px;
-    
+	margin-right: 10px;
+	top: -100px;
 }
 
 ul {
-    list-style: none;
-    text-align: center;
+	list-style: none;
+	text-align: center;
 }
 
 .image {
-    width: 150px;
-    height: 200px;
-    transition-property: all;
-    transition-duration: 0.4s;
-    transition-timing-function: ease-in-out;
+	width: 150px;
+	height: 200px;
+	transition-property: all;
+	transition-duration: 0.4s;
+	transition-timing-function: ease-in-out;
 }
 
 .image:hover {
-    width: 200px;
-    height: 250px;
+	width: 200px;
+	height: 250px;
 }
 
 #infodiv{
-    border: 20px inset skyblue;
-    border-radius: 15px;
-    position: relative;
-    top: 5px;
-    left: 55%;
-    max-width: 1000px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+	border: 20px inset skyblue;
+	border-radius: 15px;
+	position: relative;
+	top: 5px;
+	left: 55%;
+	max-width: 1000px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.8);
 }
 
 .booksdiv {
-    display: grid;
-    grid-template-columns: auto;
-    padding: 10px;
-    
+	display: grid;
+	grid-template-columns: auto;
+	padding: 10px;
+
 }
 
 .grid-items {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 15px inset skyblue;
-    border-radius: 15px;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 15px inset skyblue;
+	border-radius: 15px;
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
 }
 
 div.scrollmenu {
-    position: absolute;
-    overflow-x:hidden;
-    bottom: 0;
-    background-color: none;
-    overflow: auto;
-    white-space: nowrap;
-    width: 70%;
-    left: 15%;
-    margin-right: -50%;
-    transform: translate(-50%, -50);
+	position: absolute;
+	overflow-x:hidden;
+	bottom: 0;
+	background-color: none;
+	overflow: auto;
+	white-space: nowrap;
+	width: 70%;
+	left: 15%;
+	margin-right: -50%;
+	transform: translate(-50%, -50);
 }
 
-
 div.scrollmenu::-webkit-scrollbar {
-  display: none;
+	display: none;
+}
+
+.martin:first-letter{
+	font-size: 40px;
+	font-family: sans-serif;
 }
