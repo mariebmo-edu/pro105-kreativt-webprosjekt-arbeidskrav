@@ -19,6 +19,8 @@ body, HTML {
     background-size: cover;
 
 }
+
+/*LOGO*/
 #hoved-logo{
     position: relative;
     width: 100%;
@@ -27,8 +29,10 @@ body, HTML {
 
 
 #logo-stripes{
+    position: relative;
     width: 100%;
-    height: 300px;
+    height: 100px;
+    top: 120px;
     
 }
 
@@ -39,33 +43,15 @@ body, HTML {
 }
 
 
-#info-tegn {
-    position: absolute;
-    height: 90px;
-    left: 304px;
-    top: 80px;
-}
-#info-tegn:hover {
-    animation: wiggle 0.5s infinite ease-out;
-}
-
-
-@keyframes wiggle{
-    0%{transform: rotate(0deg)}
-    25%{transform: rotate(20deg)}
-    50%{transform: rotate(-20deg)}
-    75%{transform: rotate(20deg)}
-    100%{transform: rotate(0deg)}
-}
-
 /* INFO BOXES*/
 .infoflex {
     display: flex;
     width: 80%;
-    height: 70vh;
+    height: 40vh;
     position: relative;
     margin: 20px auto;
     padding: 10px;
+    top: 350px;
 }
 
 .flex-child {
@@ -79,19 +65,14 @@ body, HTML {
     padding: px;
     box-shadow: 10px 10px 27px 0px rgba(0,0,0,0.75);
     overflow: auto;
-    padding: 10px;
+    padding: 30px;
     
 }
 
-
-
-
-ul {
-    list-style: none;
-    text-align: center;
-}
+/*BOOK-BAR*/
 
 .image {
+    position: relative;
     width: 150px;
     height: 200px;
     transition-property: all;
