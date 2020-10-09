@@ -3,8 +3,9 @@ body, HTML {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+	margin: 0px;
 }
 
 
@@ -17,14 +18,12 @@ body, HTML {
     opacity: 10%;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 /*LOGO*/
 #hoved-logo{
     position: relative;
-    width: 100%;
-    
+    width: 100%;  
 }
 
 
@@ -32,14 +31,12 @@ body, HTML {
     position: relative;
     width: 100%;
     height: 100px;
-    top: 120px;
-    
+    top: 120px;   
 }
 
 #logo-circle{
     position: absolute;
-    right: 30px
-    
+    right: 30px;   
 }
 
 
@@ -47,11 +44,11 @@ body, HTML {
 .infoflex {
     display: flex;
     width: 80%;
-    height: 40vh;
+    height: 350px;
     position: relative;
     margin: 20px auto;
     padding: 10px;
-    top: 350px;
+    top: 170px;	
 }
 
 .flex-child {
@@ -62,19 +59,21 @@ body, HTML {
     margin: 10px;
     background-color: white;
     opacity: 80%;
-    padding: px;
     box-shadow: 10px 10px 27px 0px rgba(0,0,0,0.75);
     overflow: auto;
-    padding: 30px;
-    
+    padding: 30px;  
+}
+
+h1 {
+	font-size: 30px;
 }
 
 /*BOOK-BAR*/
 
 .image {
     position: relative;
-    width: 150px;
-    height: 200px;
+    width: 130px;
+    height: 170px;
     transition-property: all;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -82,7 +81,7 @@ body, HTML {
 
 .image:hover {
     width: 200px;
-    height: 250px;
+    height: 220px;
 }
 
 
